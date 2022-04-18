@@ -15,10 +15,10 @@ public class Main {
         students[8] = new Student("Johnson", "Dmitry", 444, "FKKPI");
         students[9] = new Student("Andreev", "Dmitry", 444, "FKKPI");
         print(students);
-        sortByIndex(students);
+        HeapSort sort = new HeapSort();
+        sort.sort(students);
         System.out.println("Відсортовано: ");
         print(students);
-
     }
 
     public static void insertionSort(Student[] stud, int size) {
