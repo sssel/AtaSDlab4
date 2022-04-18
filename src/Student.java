@@ -4,14 +4,15 @@ public class Student {
     int GroupNumber;
     String Faculty;
 
-    Student(String Surname, String Name, int GroupNumber, String Faculty){
+    Student(String Surname, String Name, int GroupNumber, String Faculty) {
         this.Surname = Surname;
         this.Name = Name;
         this.GroupNumber = GroupNumber;
-        this. Faculty = Faculty;
+        this.Faculty = Faculty;
     }
+
     @Override
-    public String toString(){
+    public String toString() {
         return String.format("%12s %10s %12d %2s ", Surname, Name, GroupNumber, Faculty);
     }
 }
