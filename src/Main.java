@@ -3,9 +3,6 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        String s1 = "Bkss";
-        String s2 = "Bks";
-        System.out.println(s1.compareTo(s2));
         Student[] students = new Student[10];
         students[0] = new Student("Krutov", "Dmitry", 110, "FKKPI");
         students[1] = new Student("Krutov", "Dmitry", 210, "FKKPI");
